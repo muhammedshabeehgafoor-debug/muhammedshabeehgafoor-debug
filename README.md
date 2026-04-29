@@ -2,7 +2,7 @@
 <body>
 <header>
 <h1><i class="fa-solid fa-chart-line"></i>Hi There This Is Muhammed Shabeeeh PK</h1>
-  I'm **[`muhammed shabeeh pk`] a Certified Ethical Hacker, Bug Hunter, and Security Researcher. With expertise in vulnerability
+  I'm [`muhammed shabeeh pk`] a Certified Ethical Hacker, Bug Hunter, and Security Researcher. With expertise in vulnerability
 <h2>Data Analyst Student</h2>
 <p>Turning data into insights and learning ML every day</p>
 <p>India, Kerala,Malappuram</p>
