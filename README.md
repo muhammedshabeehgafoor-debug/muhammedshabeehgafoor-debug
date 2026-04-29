@@ -1,254 +1,136 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Muhammed Shabeeeh PK | Portfolio</title>
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
-<style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Arial, Helvetica, sans-serif;
-}
-
-body{
-    background:#0f172a;
-    color:white;
-    line-height:1.6;
-}
-
-header{
-    background:linear-gradient(135deg,#06b6d4,#2563eb);
-    padding:60px 20px;
-    text-align:center;
-}
-
-header h1{
-    font-size:42px;
-}
-
-header h2{
-    color:#e0f2fe;
-    margin:10px 0;
-    font-size:26px;
-}
-
-header p{
-    font-size:18px;
-}
-
-nav{
-    background:#111827;
-    padding:15px;
-    text-align:center;
-    position:sticky;
-    top:0;
-    z-index:1000;
-}
-
-nav a{
-    color:white;
-    margin:0 15px;
-    text-decoration:none;
-    font-weight:bold;
-    transition:0.3s;
-}
-
-nav a:hover{
-    color:#38bdf8;
-}
-
-section{
-    padding:60px 10%;
-}
-
-.section-title{
-    font-size:32px;
-    color:#38bdf8;
-    margin-bottom:25px;
-    text-transform:uppercase;
-    letter-spacing:2px;
-    border-left:6px solid #22d3ee;
-    padding-left:15px;
-}
-
-.card{
-    background:#1e293b;
-    padding:25px;
-    border-radius:14px;
-    margin-top:20px;
-    box-shadow:0 0 15px rgba(0,0,0,0.4);
-}
-
-.skills{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-    gap:20px;
-}
-
-.skills ul{
-    list-style:none;
-}
-
-.skills li{
-    padding:8px 0;
-}
-
-.project{
-    margin-bottom:25px;
-}
-
-.project h3{
-    color:#22d3ee;
-    margin-bottom:12px;
-}
-
-footer{
-    text-align:center;
-    padding:25px;
-    background:#111827;
-    margin-top:40px;
-}
-
-.icon{
-    color:#38bdf8;
-    margin-right:8px;
-}
-</style>
-</head>
-
+<html>
 <body>
 
 <header>
 <h1><i class="fa-solid fa-chart-line"></i> Muhammed Shabeeeh PK</h1>
 <h2>Data Analyst Student</h2>
 <p>Turning data into insights and learning ML every day</p>
+<p>India, Kerala,Malappuram</p>
 </header>
 
-<nav>
-<a href="#about">About</a>
-<a href="#skills">Skills</a>
-<a href="#projects">Projects</a>
-<a href="#contact">Contact</a>
-</nav>
+<!-- Heading Line -->
+<div class="top-headings">
+<span>About</span>
+<span>Skills</span>
+<span>Projects</span>
+<span>Contacts</span>
+</div>
 
-<section id="about">
-<h2 class="section-title">About Me</h2>
+<!-- About -->
+<section>
+<h2 class="section-title">About</h2>
 
 <div class="card">
 <p>
-I started my journey with a strong interest in technology and problem-solving.
-Over time, I became interested in working with data and understanding how information can be used to make better decisions.
-This motivated me to begin learning tools like Python, Excel, SQL, and Power BI.
-As a Data Analyst student, I continuously improve my skills through projects and practical learning.
+I started my journey with a strong interest in technology and problem-solving. Over time, I became interested in working with data and understanding how information can be used to make better decisions.
 </p>
 
 <br>
 
 <p>
-I chose Data Science because it combines technology, mathematics, and business problem-solving.
-It allows me to turn raw data into useful insights that help organizations make smart decisions.
-I enjoy finding patterns in data, creating reports, and solving real-world problems.
+This motivated me to begin learning tools like Python, Excel, SQL, and Power BI. As a Data Analyst student, I continuously improve my skills through projects and practical learning.
 </p>
 
 <br>
 
 <p>
-Currently learning Data Analysis, Data Visualization, Machine Learning basics, and database management.
-Improving my skills in Pandas, NumPy, Matplotlib, SQL, and Power BI.
+I chose Data Science because it combines technology, mathematics, and business problem-solving. It helps turn raw data into useful insights.
+</p>
+
+<br>
+
+<p>
+Currently learning Data Analysis, Data Visualization, Machine Learning basics, database management, SQL, Power BI, Pandas, NumPy, and Matplotlib.
 </p>
 </div>
 </section>
 
-<section id="skills">
-<h2 class="section-title">My Skills</h2>
+<!-- Skills -->
+<section>
+<h2 class="section-title">Skills</h2>
 
-<div class="skills">
+<div class="grid">
 
 <div class="card">
 <h3><i class="fa-solid fa-code icon"></i>Programming</h3>
 <ul>
-<li>Python</li>
-<li>SQL</li>
-<li>Java</li>
-<li>HTML/CSS</li>
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&color=000000" alt="Python" />
+<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&color=000000" alt="Linux" />
+<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&color=000000" alt="Java" />
+<img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&color=000000" alt="HTML" />
+<img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&color=000000" alt="C" />    
 </ul>
 </div>
 
 <div class="card">
 <h3><i class="fa-solid fa-chart-column icon"></i>Data Analysis</h3>
 <ul>
-<li>Data Cleaning</li>
-<li>EDA</li>
-<li>Visualization</li>
-<li>Statistics</li>
-<li>Dashboard Creation</li>
+<img src="https://img.shields.io/badge/Data_Cleaning-4CAF50?style=for-the-badge&logo=databricks&color=000000" alt="Data Cleaning" />
+<img src="https://img.shields.io/badge/Data_Visualization-FF6F00?style=for-the-badge&logo=chartdotjs&color=000000" alt="Data Visualization" />
+<img src="https://img.shields.io/badge/EDA-8E44AD?style=for-the-badge&logo=plotly&color=000000" alt="EDA" />
+<img src="https://img.shields.io/badge/Statistical_Analysis-1E88E5?style=for-the-badge&logo=datacamp&color=000000" alt="Statistical Analysis" />
+<img src="https://img.shields.io/badge/Dashboard_Creation-F2C811?style=for-the-badge&logo=powerbi&color=000000" alt="Dashboard Creation" />
 </ul>
 </div>
+
+---
+<h2 id="Certifications" align=''> Certifications </h2>
+
+<div>
+<img src="https://img.shields.io/badge/OSCP-Certified-red?style=for-the-badge&color=000000" alt="OSCP Certification" />
+<img src="https://img.shields.io/badge/CompTIA_Security%2B-Certified-red?style=for-the-badge&color=000000" alt="CompTIA Security+ Certification" />
+<img src="https://img.shields.io/badge/CEH-Certified_Ethical_Hacker-blue?style=for-the-badge&logo=ec-council&color=000000" alt="CEH Certification" />
+
+</div>
+
+---
 
 <div class="card">
 <h3><i class="fa-solid fa-laptop-code icon"></i>Tools</h3>
 <ul>
-<li>Excel</li>
-<li>Power BI</li>
-<li>Google Colab</li>
-<li>MySQL</li>
-<li>GitHub</li>
+<img src="https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoftexcel&color=000000" alt="Microsoft Excel" />
+<img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&color=000000" alt="Power BI" />
+<img src="https://img.shields.io/badge/Google_Colab-F9AB00?style=for-the-badge&logo=googlecolab&color=000000" alt="Google Colab" />
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&color=000000" alt="MySQL" />
+<img src="https://img.shields.io/badge/Git_%26_GitHub-F05032?style=for-the-badge&logo=git&color=000000" alt="Git and GitHub" />
 </ul>
 </div>
 
 <div class="card">
 <h3><i class="fa-solid fa-robot icon"></i>Machine Learning</h3>
 <ul>
-<li>Regression</li>
-<li>Classification</li>
-<li>Scikit-learn</li>
+<img src="https://img.shields.io/badge/Regression-FF7043?style=for-the-badge&logo=tensorflow&color=000000" alt="Regression" />
+<img src="https://img.shields.io/badge/Classification-42A5F5?style=for-the-badge&logo=scikitlearn&color=000000" alt="Classification" />
+<img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&color=000000" alt="Scikit-learn" />
 </ul>
 </div>
 
 </div>
 </section>
 
-<section id="projects">
-<h2 class="section-title">My Projects</h2>
+<!-- Projects -->
+<section>
+<h2 id="Projects" align=''> Projects </h2>
 
-<div class="card project">
-<h3><i class="fa-solid fa-user-graduate icon"></i> Student Performance Prediction</h3>
+| **Project** | **Description** |
+|-------------|-----------------|
+| **[Student Performance Prediction](https://github.com/yourusername/student-performance-prediction)** | Predict whether a student will pass or fail based on attendance, study hours, and previous scores using Classification models. |
+| **Dataset** | Student Performance Dataset |
+| **Approach** | Cleaned missing values, encoded categorical columns, performed EDA, and applied Train/Test Split. |
+| **Model Used** | Logistic Regression / Random Forest |
+| **Result** | Achieved good accuracy in prediction. |
+| **Key Learning** | Learned classification, precision, recall, and feature selection. |
 
-<p><b>Problem:</b> Predict pass or fail using attendance, study hours, and scores.</p>
-
-<p><b>Dataset:</b> Student Performance Dataset</p>
-
-<p><b>Approach:</b></p>
-<ul>
-<li>Handled missing values</li>
-<li>Encoded categories</li>
-<li>Performed EDA</li>
-<li>Train/Test Split</li>
-</ul>
-
-<p><b>Model:</b> Logistic Regression / Random Forest</p>
-
-<p><b>Result:</b> Good prediction accuracy.</p>
-
-<p><b>Learning:</b> Classification, feature selection, evaluation metrics.</p>
-
-<p><b>GitHub:</b> Add Link</p>
-</div>
-
+---
 </section>
 
-<section id="contact">
-<h2 class="section-title">Contact Me</h2>
+<!-- Contacts -->
+<section>
+<h2 class="section-title">Contacts</h2>
 
 <div class="card">
-<p><i class="fa-solid fa-envelope icon"></i> muhammedshabeehgafoor@gmail.com</p>
-<p><i class="fa-brands fa-github icon"></i> github.com/yourusername</p>
-<p><i class="fa-brands fa-linkedin icon"></i> linkedin.com/in/yourprofile</p>
+<p><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&color=000000" alt="Gmail" />muhammedshabeehgafoor@gmail.com</p>
+<p><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&color=000000" alt="GitHub" />github.com/muhammedshabeehgafoordubug</p>
 <p><i class="fa-solid fa-location-dot icon"></i> Kerala, India</p>
 </div>
 
