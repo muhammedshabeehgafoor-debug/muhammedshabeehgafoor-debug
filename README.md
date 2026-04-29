@@ -5,7 +5,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Muhammed Shabeeeh PK | Portfolio</title>
 
-<!-- Font Awesome Icons -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 <style>
@@ -24,7 +23,7 @@ body{
 
 header{
     background:linear-gradient(135deg,#06b6d4,#2563eb);
-    padding:50px 20px;
+    padding:60px 20px;
     text-align:center;
 }
 
@@ -35,6 +34,7 @@ header h1{
 header h2{
     color:#e0f2fe;
     margin:10px 0;
+    font-size:26px;
 }
 
 header p{
@@ -47,6 +47,7 @@ nav{
     text-align:center;
     position:sticky;
     top:0;
+    z-index:1000;
 }
 
 nav a{
@@ -54,6 +55,7 @@ nav a{
     margin:0 15px;
     text-decoration:none;
     font-weight:bold;
+    transition:0.3s;
 }
 
 nav a:hover{
@@ -61,23 +63,25 @@ nav a:hover{
 }
 
 section{
-    padding:50px 10%;
+    padding:60px 10%;
 }
 
-h2{
+.section-title{
+    font-size:32px;
     color:#38bdf8;
-    margin-bottom:20px;
-    border-bottom:2px solid #38bdf8;
-    display:inline-block;
-    padding-bottom:5px;
+    margin-bottom:25px;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    border-left:6px solid #22d3ee;
+    padding-left:15px;
 }
 
 .card{
     background:#1e293b;
-    padding:20px;
+    padding:25px;
+    border-radius:14px;
     margin-top:20px;
-    border-radius:12px;
-    box-shadow:0 0 10px rgba(0,0,0,0.4);
+    box-shadow:0 0 15px rgba(0,0,0,0.4);
 }
 
 .skills{
@@ -100,13 +104,14 @@ h2{
 
 .project h3{
     color:#22d3ee;
+    margin-bottom:12px;
 }
 
 footer{
     text-align:center;
-    padding:30px;
+    padding:25px;
     background:#111827;
-    margin-top:30px;
+    margin-top:40px;
 }
 
 .icon{
@@ -119,27 +124,27 @@ footer{
 <body>
 
 <header>
-    <h1><i class="fa-solid fa-chart-line"></i> Muhammed Shabeeeh PK</h1>
-    <h2>Data Analyst Student</h2>
-    <p>Turning data into insights and learning ML every day</p>
+<h1><i class="fa-solid fa-chart-line"></i> Muhammed Shabeeeh PK</h1>
+<h2>Data Analyst Student</h2>
+<p>Turning data into insights and learning ML every day</p>
 </header>
 
 <nav>
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
 </nav>
 
 <section id="about">
-<h2>About Me</h2>
+<h2 class="section-title">About Me</h2>
 
 <div class="card">
 <p>
-I started my journey with a strong interest in technology and problem-solving. 
+I started my journey with a strong interest in technology and problem-solving.
 Over time, I became interested in working with data and understanding how information can be used to make better decisions.
 This motivated me to begin learning tools like Python, Excel, SQL, and Power BI.
-As a Data Analyst student, I am continuously improving my skills through projects and practical learning.
+As a Data Analyst student, I continuously improve my skills through projects and practical learning.
 </p>
 
 <br>
@@ -147,20 +152,20 @@ As a Data Analyst student, I am continuously improving my skills through project
 <p>
 I chose Data Science because it combines technology, mathematics, and business problem-solving.
 It allows me to turn raw data into useful insights that help organizations make smart decisions.
-I also enjoy finding patterns in data, creating reports, and solving real-world problems using analytical thinking.
+I enjoy finding patterns in data, creating reports, and solving real-world problems.
 </p>
 
 <br>
 
 <p>
 Currently learning Data Analysis, Data Visualization, Machine Learning basics, and database management.
-Improving my skills in Python libraries like Pandas, NumPy, and Matplotlib, along with SQL and Power BI.
+Improving my skills in Pandas, NumPy, Matplotlib, SQL, and Power BI.
 </p>
 </div>
 </section>
 
 <section id="skills">
-<h2>Skills</h2>
+<h2 class="section-title">My Skills</h2>
 
 <div class="skills">
 
@@ -170,7 +175,7 @@ Improving my skills in Python libraries like Pandas, NumPy, and Matplotlib, alon
 <li>Python</li>
 <li>SQL</li>
 <li>Java</li>
-<li>HTML/CSS (Basic)</li>
+<li>HTML/CSS</li>
 </ul>
 </div>
 
@@ -178,9 +183,9 @@ Improving my skills in Python libraries like Pandas, NumPy, and Matplotlib, alon
 <h3><i class="fa-solid fa-chart-column icon"></i>Data Analysis</h3>
 <ul>
 <li>Data Cleaning</li>
-<li>Data Visualization</li>
 <li>EDA</li>
-<li>Statistical Analysis</li>
+<li>Visualization</li>
+<li>Statistics</li>
 <li>Dashboard Creation</li>
 </ul>
 </div>
@@ -188,11 +193,11 @@ Improving my skills in Python libraries like Pandas, NumPy, and Matplotlib, alon
 <div class="card">
 <h3><i class="fa-solid fa-laptop-code icon"></i>Tools</h3>
 <ul>
-<li>Microsoft Excel</li>
+<li>Excel</li>
 <li>Power BI</li>
 <li>Google Colab</li>
 <li>MySQL</li>
-<li>Git & GitHub</li>
+<li>GitHub</li>
 </ul>
 </div>
 
@@ -201,7 +206,7 @@ Improving my skills in Python libraries like Pandas, NumPy, and Matplotlib, alon
 <ul>
 <li>Regression</li>
 <li>Classification</li>
-<li>Scikit-learn (Basics)</li>
+<li>Scikit-learn</li>
 </ul>
 </div>
 
@@ -209,48 +214,48 @@ Improving my skills in Python libraries like Pandas, NumPy, and Matplotlib, alon
 </section>
 
 <section id="projects">
-<h2>Projects</h2>
+<h2 class="section-title">My Projects</h2>
 
 <div class="card project">
-<h3><i class="fa-solid fa-user-graduate icon"></i>Student Performance Prediction</h3>
+<h3><i class="fa-solid fa-user-graduate icon"></i> Student Performance Prediction</h3>
 
-<p><b>Problem Statement:</b> Predict whether a student will pass or fail based on attendance, study hours, previous scores, and academic factors.</p>
+<p><b>Problem:</b> Predict pass or fail using attendance, study hours, and scores.</p>
 
-<p><b>Dataset:</b> Student Performance Dataset (Kaggle / CSV)</p>
+<p><b>Dataset:</b> Student Performance Dataset</p>
 
 <p><b>Approach:</b></p>
 <ul>
 <li>Handled missing values</li>
-<li>Encoded categorical data</li>
+<li>Encoded categories</li>
 <li>Performed EDA</li>
 <li>Train/Test Split</li>
 </ul>
 
-<p><b>Model Used:</b> Logistic Regression / Random Forest</p>
+<p><b>Model:</b> Logistic Regression / Random Forest</p>
 
-<p><b>Result:</b> Achieved good accuracy in predicting pass/fail outcomes.</p>
+<p><b>Result:</b> Good prediction accuracy.</p>
 
-<p><b>Key Learning:</b> Learned classification techniques, feature selection, and evaluation metrics.</p>
+<p><b>Learning:</b> Classification, feature selection, evaluation metrics.</p>
 
-<p><b>GitHub:</b> Add Your Project Link</p>
+<p><b>GitHub:</b> Add Link</p>
 </div>
 
 </section>
 
 <section id="contact">
-<h2>Contact</h2>
+<h2 class="section-title">Contact Me</h2>
 
 <div class="card">
-<p><i class="fa-solid fa-envelope icon"></i>muhammedshabeehgafoor@gmail.com</p>
-<p><i class="fa-brands fa-github icon"></i>github.com/yourusername</p>
-<p><i class="fa-brands fa-linkedin icon"></i>linkedin.com/in/yourprofile</p>
-<p><i class="fa-solid fa-location-dot icon"></i>Kerala, India</p>
+<p><i class="fa-solid fa-envelope icon"></i> muhammedshabeehgafoor@gmail.com</p>
+<p><i class="fa-brands fa-github icon"></i> github.com/yourusername</p>
+<p><i class="fa-brands fa-linkedin icon"></i> linkedin.com/in/yourprofile</p>
+<p><i class="fa-solid fa-location-dot icon"></i> Kerala, India</p>
 </div>
 
 </section>
 
 <footer>
-© 2026 Muhammed Shabeeeh PK | Data Analyst Portfolio
+© 2026 Muhammed Shabeeeh PK | Portfolio
 </footer>
 
 </body>
